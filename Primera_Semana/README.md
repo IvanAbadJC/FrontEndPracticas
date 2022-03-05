@@ -1,5 +1,5 @@
 # Índice
-Esta actividad lleva el título de AbogaBot, para poder realizar la documentación pertinenete se pide lo siguiente:
+Esta actividad lleva el título de AbogaBot, para poder realizar la documentación pertinente se pide lo siguiente:
 
 * Es un despacho de abogados que quiere automatizar las demandas de sus clientes, esto lo harán a traves de una página web llenando un formulario.
 
