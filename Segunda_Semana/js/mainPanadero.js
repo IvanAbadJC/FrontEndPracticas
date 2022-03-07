@@ -1,0 +1,1 @@
+cargaPaginas('contenedor', 'pedidos.html');

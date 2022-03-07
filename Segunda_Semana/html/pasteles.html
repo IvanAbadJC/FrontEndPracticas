@@ -1,0 +1,64 @@
+<div class="pastelesPrincipal">
+    <div class="pastelesCard">
+        <figure>
+            <img src="https://cdn.pixabay.com/photo/2017/03/07/04/40/swede-cakes-2123191_960_720.jpg" class="pastelesTamanio">
+            <h1 class="pastelTitulo">Prepara tu pastel</h1>
+        </figure>
+        <div class="pastelesContenido">
+                <h3>Eligue un tamaño</h3>
+                <ul>
+                    <li><input name="tamanio" type="checkbox" onclick="menu(this)" value="chico"> Chico: 8 personas ============================== $80</li>
+                    <li><input id="chico" type="checkbox" value="80" style="display: none;"></li>
+                    <li><input name="tamanio" type="checkbox" onclick="menu(this)" value="mediano"> Mediano: 12 personas =========================== $130</li>
+                    <li><input id="mediano" type="checkbox" value="130" style="display: none;"></li>
+                    <li><input name="tamanio" type="checkbox" onclick="menu(this)" value="grande"> Grande: 16 personas ============================ $160</li>
+                    <li><input id="grande" type="checkbox" value="160" style="display: none;"></li>
+                </ul>
+                <br>
+                <h3>Eligue un sabor</h3>
+                <ul>
+                    <li><input name="sabor" type="checkbox" onclick="menu(this)" value="chocolate"> Chocolate ================================== $70</li>
+                    <li><input id="chocolate" type="checkbox" value="70" style="display: none;"></li>
+                    <li><input name="sabor" type="checkbox" onclick="menu(this)" value="fresa"> Fresa ===================================== $60</li>
+                    <li><input id="fresa" type="checkbox" value="60" style="display: none;"></li>
+                    <li><input name="sabor" type="checkbox" onclick="menu(this)" value="queso"> Queso ===================================== $65</li>
+                    <li><input id="queso" type="checkbox" value="65" style="display: none;"></li>
+                    <li><input name="sabor" type="checkbox" onclick="menu(this)" value="frambuesa"> Frambuesa ================================== $80</li>
+                    <li><input id="frambuesa" type="checkbox" value="80" style="display: none;"></li>
+                </ul>
+    
+                <br>
+                <h3>Eligue los adornos</h3>
+                <p>Dulces</p>
+                <ul>
+                    <li><input name="dulce" type="checkbox" onclick="menu(this)" value="kinder bueno"> Chocolate Kinder Bueno ========================== $50</li>
+                    <li><input id="kinder bueno" type="checkbox" value="50" style="display: none;"></li>
+                    <li><input name="dulce" type="checkbox" onclick="menu(this)" value="carlos v"> Chocolate Carlos V ============================= $40</li>
+                    <li><input id="carlos v" type="checkbox" value="40" style="display: none;"></li>
+                    <li><input name="dulce" type="checkbox" onclick="menu(this)" value="ferrero"> Chocolate Ferrero ============================== $80</li>
+                    <li><input id="ferrero" type="checkbox" value="80" style="display: none;"></li>
+                    <li><input name="dulce" type="checkbox" onclick="menu(this)" value="hersheys"> Chocolate Hersheys ============================ $35</li>
+                    <li><input id="hersheys" type="checkbox" value="35" style="display: none;"></li>
+                    <li><input name="dulce" type="checkbox" onclick="menu(this)" value="kisses"> Chocolate Kisses ============================== $45</li>
+                    <li><input id="kisses" type="checkbox" value="45" style="display: none;"></li>
+                    <li><input name="dulce" type="checkbox" onclick="menu(this)" value="m&m"> Chocolate M&Ms ============================== $35</li>
+                    <li><input id="m&m" type="checkbox" value="35" style="display: none;"></li>
+                </ul>
+                <br>
+                <p>Frutas y semillas</p>
+                <ul>
+                    <li><input name="frutas" type="checkbox" onclick="menu(this)" value="fresas y kiwi"> Fresas y Kiwi ================================ $70</li>
+                    <li><input id="fresas y kiwi" type="checkbox" value="70" style="display: none;"></li>
+                    <li><input name="frutas" type="checkbox" onclick="menu(this)" value="duraznos y manzanas"> Duraznos y Manzana =========================== $45</li>
+                    <li><input id="duraznos y manzanas" type="checkbox" value="45" style="display: none;"></li>
+                    <li><input name="frutas" type="checkbox" onclick="menu(this)" value="nueces y cacahuate"> Nuez y Cacahuate ============================= $120</li>
+                    <li><input id="nueces y cacahuate" type="checkbox" value="120" style="display: none;"></li>
+                    <li><input name="frutas" type="checkbox" onclick="menu(this)" value="moras y cerezas"> Moras y Cerezas ============================== $65</li>
+                    <li><input id="moras y cerezas" type="checkbox" value="65" style="display: none;"></li>
+                    <li><input name="frutas" type="checkbox" onclick="menu(this)" value="uvas y kiwi"> Uvas y Kiwi ================================ $80</li>
+                    <li><input id="uvas y kiwi" type="checkbox" value="80" style="display: none;"></li>
+                </ul>
+        </div>
+    </div>
+    <div id="pastelesCardCarrito" class="pastelesCardCarrito"></div>
+</div>

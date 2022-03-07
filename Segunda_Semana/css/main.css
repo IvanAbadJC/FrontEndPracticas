@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Sansita+Swashed:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+@import "header.css";
+@import "home.css";
+@import "inicio.css";
+@import "pasteles.css";
+@import "datos.css";
+@import "footer.css";
+
+@import "pedidos.css";

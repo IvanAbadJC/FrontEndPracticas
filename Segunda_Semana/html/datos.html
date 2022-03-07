@@ -1,0 +1,33 @@
+<div class="datosPrincipal">
+    <div class="datosCard">
+        <figure>
+            <img src="https://cdn.pixabay.com/photo/2017/03/07/04/40/swede-cakes-2123191_960_720.jpg" class="pastelesTamanio">
+            <h1 class="datosTitulo">Datos del Cliente</h1>
+        </figure>
+        <div class="datosContenido">
+                <h3>Ingresa los datos que se piden:</h3>
+                <br>
+                <div id="error"></div>
+                <form action="#" class="formDatos" id="formDatos">
+                    <label for="inNombre">Nombre:</label>
+                    <input type="text" name="inNombre" id="inNombre" required>
+
+                    <label for="inApellido">Apellido:</label>
+                    <input type="text" name="inApellido" id="inApellido" required>
+
+                    <label for="inTelefono">Teléfono:</label>
+                    <input type="number" name="inTelefono" id="inTelefono" required>
+
+                    <label for="inCorreo">Correo:</label>
+                    <input type="email" name="inCorreo" id="inCorreo" required>
+
+                    <label for="inDireccion">Dirección:</label>
+                    <input type="text" name="inDireccion" id="inDireccion" required>
+
+                    <label for="txtDescripcion">Descripción del pedido:</label>
+                    <textarea name="txtDescripcion" id="txtDescripcion" cols="30" rows="10" required></textarea>
+                    <input type="submit" value="" style="display: none;">
+                </form>
+                <input class="submitBtn" type="button" value="Submit" onclick="submit()">
+        </div>
+    </div>

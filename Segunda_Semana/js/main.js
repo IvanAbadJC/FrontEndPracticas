@@ -1,0 +1,1 @@
+cargaPaginas('contenedor', 'inicio.html');
