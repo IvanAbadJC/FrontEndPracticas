@@ -1,1 +1,1 @@
-cargaPaginas('contenedor', 'inicio.html');
+cargaPaginas('contenedor', 'html/inicio.html');

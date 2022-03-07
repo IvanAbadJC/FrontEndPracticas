@@ -1,1 +1,1 @@
-cargaPaginas('contenedor', 'pedidos.html');
+cargaPaginas('contenedor', 'html/pedidos.html');

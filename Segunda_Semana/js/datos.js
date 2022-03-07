@@ -16,5 +16,10 @@ function submit(){
     localStorage.setItem('dulce', sessionStorage.getItem('dulce'));
     localStorage.setItem('frutas', sessionStorage.getItem('frutas'));
     localStorage.setItem('total', sessionStorage.getItem('subTotal'));
-    cargaPaginas('contenedor', 'inicio.html');
+    if(nombre.lenght>0 && apellido.lenght>0 && telefono.lenght>0 && correo.lenght>0 && direccion.lenght>0 && descripcion.lenght>0){
+        cargaPaginas('contenedor', 'html/inicio.html');
+    }else{
+        window.alert("Debes llenar correctamente el formulario");
+    }
+    
 }

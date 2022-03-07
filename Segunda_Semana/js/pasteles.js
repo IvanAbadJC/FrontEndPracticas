@@ -106,7 +106,7 @@ function continuarOrden(){
 
     if(tamanio.length > 0 && sabor.length > 0){
         if(dulces.length > 0 || fruta.length > 0){
-            cargaPaginas('contenedor', 'datos.html');
+            cargaPaginas('contenedor', 'html/datos.html');
         }else{
             window.alert("Debes elegir por lo menos un ardono: Dulces o Frutas")
         }
