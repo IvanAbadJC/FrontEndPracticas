@@ -7,3 +7,4 @@ En este repositorio se almacenan las actividades de Front-End para el curso Laun
 * **[Primera semana
   ](https://github.com/IvanAbadJC/FrontEndPracticas/tree/main/Primera_Semana)**
 * [**Segunda semana**](https://github.com/IvanAbadJC/FrontEndPracticas/tree/main/Segunda_Semana)
+* [**Tercera semana**](https://github.com/IvanAbadJC/FrontEndPracticas/tree/main/Tercera_Semana)
