@@ -1,5 +1,7 @@
 # Semana 3: Prueba CSS
 
-Para la semana 3 se realizó un ejercicio de clonar una página que fue proporcionada. La idea es lograr el diseño más cercano posible al original.
+Actividad para la semana tres del programa LaunchX.
+
+El propósito de esta actividad fue hacer uso de lo aprendido en CSS durante esta semana, por lo que el ejercicio consistió en clonar una página proporcionada por el programa. La idea es lograr el diseño más cercano posible al original.
 
 El resultado obtenido ha sido hosteado [aquí](https://ivanabadjc.github.io/TerceraSemana/).

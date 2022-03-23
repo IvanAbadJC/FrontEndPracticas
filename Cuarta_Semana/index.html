@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <script src="pokedex.js"></script>
+    <title>Pokedex</title>
+</head>
+<body>
+    <section>
+        <div class="contenedor">
+            <div class="botones-superiores">
+                <div class="box-parlante">
+                    <div class="parlante"></div>
+                </div>
+                <div class="leds">
+                    <div class="led-1"></div>
+                    <div class="led-2"></div>
+                </div>
+            </div>
+
+            <div class="contenedor-pantalla">
+                <div class="box-pantalla">
+                    <div class="pantalla" id="pantalla"></div>
+                </div>
+                <div class="boton-bocina">
+                    <button class="encendido" id="encendido" onclick="enUso()"><i class="fa-solid fa-power-off"></i></button>
+                    <div class="bocina">
+                        <div class="bocina-linea"></div>
+                        <div class="bocina-linea"></div>
+                        <div class="bocina-linea"></div>
+                    </div>
+                </div>
+            </div>
+
+            <div id="cut"></div>
+            <div class="buscador">
+                <input type="text" placeholder="BUSCAR POKÉMON" id="inPokemon" disabled>
+                <button class="arrow-right" id="buscar" onclick="obtienePokemon()"></button>
+            </div>
+        </div>
+    </section>
+</body>
+</html>
