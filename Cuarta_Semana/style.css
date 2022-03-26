@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=VT323&display=swap');
 :root {
+    --body-color: #c3cfa1;
     --background: #ff1800;
     --background-pantalla: #27313a;
     --pantalla: #bcb9c6;
@@ -16,6 +17,10 @@
 
 * {
     font-family: 'VT323', monospace;
+}
+
+body {
+    background-image: url("assets/pikachu.png");
 }
 
 section {
