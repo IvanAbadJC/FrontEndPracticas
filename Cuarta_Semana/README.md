@@ -13,3 +13,5 @@ Los datos presentados al usuario son simples:
 * Tipo
 * Stats (hp, ataque, defensa)
 * Habilidades
+
+El resultado del ejercicio ha sido hosteado [aquí](https://ivanabadjc.github.io/FrontEndPracticas/).
